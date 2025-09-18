@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HellTaker\\Documents\\Visual Studio Code\\design-patterns-lab\\Launcher\\Launcher.csproj": {}
+    "C:\\Users\\Helltaker\\Documents\\Visual Studio Code\\design-patterns-lab\\Launcher\\Launcher.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HellTaker\\Documents\\Visual Studio Code\\design-patterns-lab\\Launcher\\Launcher.csproj": {
+    "C:\\Users\\Helltaker\\Documents\\Visual Studio Code\\design-patterns-lab\\Launcher\\Launcher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HellTaker\\Documents\\Visual Studio Code\\design-patterns-lab\\Launcher\\Launcher.csproj",
+        "projectUniqueName": "C:\\Users\\Helltaker\\Documents\\Visual Studio Code\\design-patterns-lab\\Launcher\\Launcher.csproj",
         "projectName": "Launcher",
-        "projectPath": "C:\\Users\\HellTaker\\Documents\\Visual Studio Code\\design-patterns-lab\\Launcher\\Launcher.csproj",
-        "packagesPath": "C:\\Users\\HellTaker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HellTaker\\Documents\\Visual Studio Code\\design-patterns-lab\\Launcher\\obj\\",
+        "projectPath": "C:\\Users\\Helltaker\\Documents\\Visual Studio Code\\design-patterns-lab\\Launcher\\Launcher.csproj",
+        "packagesPath": "C:\\Users\\Helltaker\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Helltaker\\Documents\\Visual Studio Code\\design-patterns-lab\\Launcher\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HellTaker\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Helltaker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,8 +43,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -54,30 +59,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
