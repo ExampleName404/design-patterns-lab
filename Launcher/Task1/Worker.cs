@@ -1,4 +1,6 @@
-public class Worker : Employee
+namespace DesignPatternsLab.Launcher.Task1
+{
+    public class Worker : DesignPatternsLab.Launcher.Task1.Employee
 {
     /*
     Рабочий (Worker): Атрибуты – ставка за час, количество часов. Метод – расчет зарплаты.
@@ -26,4 +28,5 @@ public class Worker : Employee
     {
         Console.WriteLine($"ID = {Id}, Name = {Name}, JobTitle = {JobTitle}, Total Salary = {SalaryCalc()}");
     }
+}
 }

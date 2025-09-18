@@ -1,33 +1,36 @@
-public abstract class Employee
+namespace DesignPatternsLab.Launcher.Task1
 {
-
-    // Лаб 1
-    /* Создайте базовый класс: 
-    Сотрудник (Employee): Атрибуты – имя, идентификатор сотрудника, должность. Методы – расчет зарплаты.
-    */
-
-
-    // Инициализация переменных
-    private static int _counter = 0;
-    public int Id { get; private set; }
-    public string? Name { get; set; }
-    public string? JobTitle { get; set; }
-
-    // Конструктор для вводы
-    public Employee(string name, string jobTitle)
+    public abstract class Employee
     {
-        _counter++;
-        this.Id = _counter;
-        this.Name = name;
-        this.JobTitle = jobTitle;
-    }
 
-    // Вывод информации о рабочем
-    public virtual void ShowInfo()
-    {
-        Console.WriteLine($"ID = {Id}, Name = {Name}, JobTitle = {JobTitle}");
-    }
+        // Лаб 1
+        /* Создайте базовый класс: 
+        Сотрудник (Employee): Атрибуты – имя, идентификатор сотрудника, должность. Методы – расчет зарплаты.
+        */
 
-    // Расчет зарплать
-    public abstract int SalaryCalc();
+
+        // Инициализация переменных
+        private static int _counter = 0;
+        public int Id { get; private set; }
+        public string? Name { get; set; }
+        public string? JobTitle { get; set; }
+
+        // Конструктор для вводы
+        public Employee(string name, string jobTitle)
+        {
+            _counter++;
+            this.Id = _counter;
+            this.Name = name;
+            this.JobTitle = jobTitle;
+        }
+
+        // Вывод информации о рабочем
+        public virtual void ShowInfo()
+        {
+            Console.WriteLine($"ID = {Id}, Name = {Name}, JobTitle = {JobTitle}");
+        }
+
+        // Расчет зарплать
+        public abstract int SalaryCalc();
+    }
 }

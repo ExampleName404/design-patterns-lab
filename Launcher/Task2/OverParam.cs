@@ -1,4 +1,6 @@
 // Излишняя параметризация методов
+namespace DesignPatternsLab.Launcher.Task2
+{
 public class MathOperations
 {
     public int Add(int a, int b, bool shouldLog = false)
@@ -11,4 +13,5 @@ public class MathOperations
         // }
         // Тут две ответственности либо полностью убрать или вынести вывод лога в отдельный метод
     }
+}
 }

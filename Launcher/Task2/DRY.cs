@@ -1,5 +1,6 @@
+namespace DesignPatternsLab.Launcher.Task2
+{
 public class OrderService
-
 {
     public double CalulateTotalPrice(int quantity,int price) // Создали отдельный метод, по хорошему он должен быть вынесен отдельно
     {
@@ -26,23 +27,6 @@ public class OrderService
     }
 
 }
-
-public class Car
-{
-    public string Name { get; set; }
-    public void Start()
-    {
-        Console.WriteLine($"{Name} is starting");
-    }
-
-    public void Stop()
-    {
-        Console.WriteLine($"{Name} is stopping");
-    }
-
 }
 
-public class Truck : Car
-{
-    
-}
+

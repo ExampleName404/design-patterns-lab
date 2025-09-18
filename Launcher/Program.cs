@@ -1,11 +1,11 @@
 ﻿
-using System.Data;
+using DesignPatternsLab.Launcher.Task1;
 
 internal class Program
 {
     public static void Main(string[] args)
     {
-        var firstTask = new Task1();
-        firstTask.Start();
+        var task = new Launcher();
+        task.Start();
     }
 }

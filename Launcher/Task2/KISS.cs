@@ -1,6 +1,8 @@
+namespace DesignPatternsLab.Launcher.Task2
+{
 public class Car
 {
-    public string Name { get; set; }
+    public string? Name { get; set; }
     public void Start()
     {
         Console.WriteLine($"{Name} is starting");
@@ -12,8 +14,8 @@ public class Car
     }
 
 }
-
 public class Truck : Car
 {
     // Вынесли основные методы в базовый класс, в дальнейшем просто наследуемся и перенимаем свойства
+}
 }

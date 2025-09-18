@@ -1,4 +1,6 @@
 // Избыточное создание абстракций
+namespace DesignPatternsLab.Launcher.Task2
+{
 public interface IShape
 {
     double CalculateArea();
@@ -32,3 +34,4 @@ public class Square : IShape
         return _side * _side;
     }
 } // Не знаю, я бы оставил как есть ибо потом расширять легко. А так, если что убрать нтерфейс и сделать обычные методы
+}

@@ -1,36 +1,37 @@
-public class Singleton
+namespace DesignPatternsLab.Launcher.Task2
 {
-    private static Singleton _instance;
-    private Singleton()
+    public class Singleton
     {
-        // Шаблон одиночки
-    }
-    public static Singleton Instance
-    {
-        get
+        private static Singleton? _instance;
+        private Singleton()
         {
-            if (_instance == null)
+            // Шаблон одиночки
+        }
+        public static Singleton Instance
+        {
+            get
             {
-                 _instance = new Singleton();
+                if (_instance == null)
+                {
+                    _instance = new Singleton();
 
+                }
+                return _instance;
             }
-            return _instance;
+        }
+
+
+        public void DoSomething()
+        {
+            Console.WriteLine("Doing something..."); // как я понял просто тестовый функционал
         }
     }
-
-
-    public void DoSomething()
+    public class Client // Реализация на стороне клиента
     {
-        Console.WriteLine("Doing something..."); // как я понял просто тестовый функционал
-    }
-}
+        public void Execute()
+        {
+            Singleton.Instance.DoSomething();
 
-
-public class Client // Реализация на стороне клиента
-{
-    public void Execute()
-    {
-        Singleton.Instance.DoSomething();
-
+        }
     }
 }

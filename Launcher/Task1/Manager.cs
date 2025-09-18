@@ -1,4 +1,6 @@
-public class Manager : Employee
+namespace DesignPatternsLab.Launcher.Task1
+{
+public class Manager : DesignPatternsLab.Launcher.Task1.Employee
 {
     /* Менеджер (Manager): Атрибуты – фиксированная зарплата, премия. Метод – расчет зарплаты. */
     public int FixedSalary { get; set; }
@@ -23,4 +25,5 @@ public class Manager : Employee
     {
         Console.WriteLine($"ID = {Id}, Name = {Name}, JobTitle = {JobTitle}, Total Salary = {SalaryCalc()}");
     }
+}
 }

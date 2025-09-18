@@ -1,3 +1,5 @@
+namespace DesignPatternsLab.Launcher.Task1
+{
 public class EmployeesRegistry
 {
     // Коллекция сотрудников
@@ -15,4 +17,5 @@ public class EmployeesRegistry
             employee.ShowInfo();
         }
     }
+}
 }
