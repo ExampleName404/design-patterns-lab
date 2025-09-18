@@ -12,3 +12,4 @@ C:\Users\Helltaker\Documents\Visual Studio Code\design-patterns-lab\Launcher\obj
 C:\Users\Helltaker\Documents\Visual Studio Code\design-patterns-lab\Launcher\obj\Debug\net8.0\Launcher.pdb
 C:\Users\Helltaker\Documents\Visual Studio Code\design-patterns-lab\Launcher\obj\Debug\net8.0\Launcher.genruntimeconfig.cache
 C:\Users\Helltaker\Documents\Visual Studio Code\design-patterns-lab\Launcher\obj\Debug\net8.0\ref\Launcher.dll
+C:\Users\HellTaker\Documents\Visual Studio Code\design-patterns-lab\Launcher\obj\Debug\net8.0\Launcher.sourcelink.json
