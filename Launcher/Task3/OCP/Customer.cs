@@ -1,6 +1,9 @@
-public enum CustomerType
+namespace Launcher.Task3
 {
-    Regular,
-    Silver,
-    Gold
+    public enum CustomerType
+    {
+        Regular,
+        Silver,
+        Gold
+    }
 }

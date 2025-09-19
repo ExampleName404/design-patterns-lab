@@ -1,13 +1,13 @@
-namespace DesignPatternsLab.Launcher.Task1
+using System;
+
+namespace Launcher.Task1
 {
     public abstract class Employee
     {
-
         // Лаб 1
         /* Создайте базовый класс: 
         Сотрудник (Employee): Атрибуты – имя, идентификатор сотрудника, должность. Методы – расчет зарплаты.
         */
-
 
         // Инициализация переменных
         private static int _counter = 0;

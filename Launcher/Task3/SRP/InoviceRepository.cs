@@ -1,10 +1,10 @@
-namespace DesignPatternsLab.Launcher.Task3.SRP
+namespace Launcher.Task3.SRP
 {
-public class InoviceRepository
-{
-    public void SaveToDatabase()
+    public class InoviceRepository
     {
-        // Логика для сохранения счета-фактуры в базу данных
+        public void SaveToDatabase()
+        {
+            // Логика для сохранения счета-фактуры в базу данных
+        }
     }
-}
 }

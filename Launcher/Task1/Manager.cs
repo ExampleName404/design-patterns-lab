@@ -1,29 +1,29 @@
-namespace DesignPatternsLab.Launcher.Task1
+namespace Launcher.Task1
 {
-public class Manager : DesignPatternsLab.Launcher.Task1.Employee
-{
-    /* Менеджер (Manager): Атрибуты – фиксированная зарплата, премия. Метод – расчет зарплаты. */
-    public int FixedSalary { get; set; }
-    public int Award { get; set; }
-
-    // Конструктор
-    public Manager(string name, string jobTitle, int fixSalary, int award)
-    : base(name, jobTitle)
+    public class Manager : Employee
     {
-        this.FixedSalary = fixSalary;
-        this.Award = award;
-    }
+        /* Менеджер (Manager): Атрибуты – фиксированная зарплата, премия. Метод – расчет зарплаты. */
+        public int FixedSalary { get; set; }
+        public int Award { get; set; }
 
-    // Тоже переписываем полиморфизм)
-    public override int SalaryCalc()
-    {
-        return FixedSalary + Award;
-    }
+        // Конструктор
+        public Manager(string name, string jobTitle, int fixSalary, int award)
+            : base(name, jobTitle)
+        {
+            this.FixedSalary = fixSalary;
+            this.Award = award;
+        }
 
-    // Опять переписываем метод
-    public override void ShowInfo()
-    {
-        Console.WriteLine($"ID = {Id}, Name = {Name}, JobTitle = {JobTitle}, Total Salary = {SalaryCalc()}");
+        // Тоже переписываем полиморфизм)
+        public override int SalaryCalc()
+        {
+            return FixedSalary + Award;
+        }
+
+        // Опять переписываем метод
+        public override void ShowInfo()
+        {
+            Console.WriteLine($"ID = {Id}, Name = {Name}, JobTitle = {JobTitle}, Total Salary = {SalaryCalc()}");
+        }
     }
-}
 }

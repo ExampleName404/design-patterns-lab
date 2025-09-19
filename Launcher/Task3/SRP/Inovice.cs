@@ -1,12 +1,8 @@
-public class Invoice
+namespace Launcher.Task3.SRP
 {
-    public int Id { get; set; }
-    public double TaxRate { get; set; }
-
-    
-
-    public void SaveToDatabase()
+    public class Invoice
     {
-        // Логика для сохранения счета-фактуры в базу данных
+        public int Id { get; set; }
+        public double TaxRate { get; set; }
     }
 }

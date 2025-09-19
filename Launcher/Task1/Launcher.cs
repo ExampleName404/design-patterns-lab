@@ -1,4 +1,4 @@
-namespace DesignPatternsLab.Launcher.Task1
+namespace Launcher.Task1
 {
     public class Launcher
     {
